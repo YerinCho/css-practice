@@ -1,16 +1,29 @@
-body {
+body, html {
     height: 100%;
 }
 
-html {
-    height: 100%;
+header {
+    display: flex;
+}
+
+main {
+    background-color: #fafafa;
+}
+
+h2 {
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 32px;
+    margin: -5px 10px -6px;
 }
 
 .nav-container {
     display: flex;
-    border-bottom: 1px solid #c8c8c8;
+    border-bottom: 1px solid rgb(219, 219, 219);
     height: 54px;
     padding: 0 10px;
+    background-color: #ffffff;
 }
 
 .nav-item-container {
@@ -43,6 +56,54 @@ html {
     padding: 5px 10px;
 }
 
+.profile-img-container {
+    /*display: flex;*/
+    height: 77px;
+    width: 77px;
+    padding: 30px 10px 10px 15px;
+    margin-right: 0;
+}
+
+.profile-img {
+    display: flex;
+    background-color: #fafafa;
+    border: 0.5px solid #c8c8c8;
+    border-radius: 50%;
+    height: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    width: 100%;
+}
+
+.profile-edit-container {
+    padding: 40px 10px 10px 10px;
+
+}
+
+.id {
+    display: flex;
+}
+
+.edit-btn {
+    display: flex;
+    padding: 0 10px 10px 1px;
+    margin-right: 1px;
+}
+
+.profile-edit-btn {
+    display: flex;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.profile-edit-btn button{
+    background-color: #fafafa;
+    border: 1px solid #c8c8c8;
+    border-radius: 5px;
+    width: 260px;
+    height: 30px;
+}
+
 
 .column-line {
     width: 1px;
@@ -53,16 +114,3 @@ html {
     left: 150px;
 }
 
-.container {
-    display: flex;
-}
-
-
-._8-yf5 {
-    display: block;
-    position: relative;
-}
-
-.asd {
-    margin-top: auto;
-}
