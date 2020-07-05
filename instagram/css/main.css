@@ -119,13 +119,36 @@ h2 {
     font-size: 14px;
 }
 
+.story-container {
+    display: flex;
+    flex-direction: row;
+    height: 80px;
+    width: 100%;
+}
 
-.column-line {
-    width: 1px;
-    background-color: #8e8e8e;
+.story-img-container {
+    height: 55px;
+    width: 55px;
+    padding: 15px 5px 10px 10px;
+}
+
+.story-img-container span {
     position: absolute;
-    top: 10px;
-    bottom: 60%;
-    left: 150px;
+    font-size: 12px;
+    text-align: center;
+    width: 100px;
+    padding-left: 60px;
+    transform: translateX(-50%);
+}
+
+.story-img {
+    display: flex;
+    background-color: #fafafa;
+    border: 3px double #c8c8c8;
+    border-radius: 50%;
+    height: 100%;
+    margin: 3px auto 10px auto;
+    overflow: hidden;
+    width: 100%;
 }
 
