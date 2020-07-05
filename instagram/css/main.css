@@ -48,7 +48,7 @@ h2 {
     display: flex;
     margin-left: auto;
     flex: none;
-    padding: 10px 0px;
+    padding: 10px 0;
 }
 
 .nav-item-gnb {
@@ -57,7 +57,6 @@ h2 {
 }
 
 .profile-img-container {
-    /*display: flex;*/
     height: 77px;
     width: 77px;
     padding: 30px 10px 10px 15px;
@@ -96,12 +95,28 @@ h2 {
     padding-left: 10px;
 }
 
-.profile-edit-btn button{
+.profile-edit-btn button {
     background-color: #fafafa;
     border: 1px solid #c8c8c8;
     border-radius: 5px;
     width: 260px;
     height: 30px;
+}
+
+.message-container {
+    padding-top: 20px;
+    padding-left: 20px;
+    margin-bottom: 5px;
+}
+
+.message-container h3 {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.message-container span {
+    font-size: 14px;
 }
 
 
